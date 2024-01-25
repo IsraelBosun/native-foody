@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "native-food-app",
-    "slug": "native-food-app",
+    "name": "Foodify",
+    "slug": "Foodify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.israelbosun.Foodify"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0368a010-35d9-461f-80a8-f5fddbbc7cfd"
+      }
     }
   }
 }
