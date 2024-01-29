@@ -39,7 +39,7 @@ export default function index() {
         </View>
 
         <View className="flex-row items-center justify-center gap-x-10 mt-5 ">
-          <TouchableOpacity className="flex-row  items-center justify-between bg-white rounded-full px-4 py-3">
+          <TouchableOpacity onPress={()=>router.push("welcome")} className="flex-row  items-center justify-between bg-white rounded-full px-4 py-3">
             <Image source={require("../assets/images/facebooklogo.png")} />
             <Text className="pl-1 font-semibold text-neutral-800">FACEBOOK</Text>
           </TouchableOpacity>
